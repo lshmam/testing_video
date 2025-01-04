@@ -97,7 +97,7 @@ const Hero4 = () => {
           </div>
         </h1>
         <p className="mt-5 font-sans text-base font-normal text-white text-opacity-70 max-w-xl">
-          Our instructors at Saigon Driving are here to help you master it
+          Our instructors at Greater Vancouver Driving School are here to help you master it
         </p>
         <div className="flex items-center justify-center mt-8 space-x-3 sm:space-x-4">
           <a
