@@ -18,7 +18,9 @@ export function ReviewCard({ review }: ReviewCardProps) {
         <div className="flex-1">
           <div className="flex items-center justify-between">
             <h3 className="font-semibold">
-              {review.reviewer.isAnonymous ? "Anonymous" : review.reviewer.displayName}
+              {review.reviewer.isAnonymous
+                ? "Anonymous"
+                : review.reviewer.displayName}
             </h3>
             <StarRating rating={review.starRating} />
           </div>
@@ -32,7 +34,9 @@ export function ReviewCard({ review }: ReviewCardProps) {
         {review.reviewReply && (
           <div className="mt-4 rounded-lg bg-muted p-4">
             <p className="text-sm font-semibold">Response:</p>
-            <p className="mt-1 text-sm line-clamp-2">{review.reviewReply.comment}</p>
+            <p className="mt-1 text-sm line-clamp-2">
+              {review.reviewReply.comment}
+            </p>
             <p className="mt-2 text-xs text-muted-foreground">
               {formatDate(new Date(review.reviewReply.updateTime))}
             </p>
