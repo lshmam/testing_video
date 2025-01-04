@@ -90,7 +90,6 @@ const Hero4 = () => {
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-6 sm:px-8 lg:px-12">
         <h1 className="tracking-tighter">
           <span className="font-sans font-normal text-7xl">Driving is</span>
-          <br />
           <div className="mt-2 p-3">
             <span className="font-serif italic font-normal text-8xl">
               Freedom
@@ -98,8 +97,7 @@ const Hero4 = () => {
           </div>
         </h1>
         <p className="mt-5 font-sans text-base font-normal text-white text-opacity-70 max-w-xl">
-          Our instructors at Easyway Driving with 10+ years of experience are
-          here to help you master it
+          Our instructors at Easyway Driving are here to help you master it
         </p>
         <div className="flex items-center justify-center mt-8 space-x-3 sm:space-x-4">
           <a

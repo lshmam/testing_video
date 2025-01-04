@@ -1,6 +1,8 @@
+"use client";
+
 import React from "react";
-// import { motion } from "motion/react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
+// import { motion } from "framer-motion";
 
 import {
   Card,
@@ -58,7 +60,7 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
   </motion.div>
 );
 
-const Features2 = () => {
+const Features3 = () => {
   const resources = [
     {
       title: "Experienced Instructors",
@@ -122,4 +124,4 @@ const Features2 = () => {
   );
 };
 
-export default Features2;
+export default Features3;
