@@ -15,7 +15,6 @@ export default function Home() {
       <TestimonialDark />
       <CTA2 />
       <Footer />
-      <GoogleMap2/>
     </div>
   );
 }

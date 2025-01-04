@@ -13,7 +13,7 @@ export function GoogleMap2() {
 
       const iframe = document.createElement('iframe')
       iframe.style.border = '0'
-      iframe.src = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=eastvan+driving+academy`
+      iframe.src = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=easyway+driving+academy`
       iframe.width = '100%'
       iframe.height = '100%'
       iframe.allowFullscreen = true
