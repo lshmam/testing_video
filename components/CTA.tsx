@@ -3,7 +3,7 @@ import { ChevronRight } from 'lucide-react'
 
 export function CTA() {
   return (
-    <section className="py-20 bg-black text-white">
+    <section className="py-20 bg-black text-gray-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-8">Ready to Take the Wheel?</h2>
         <p className="text-xl mb-12 max-w-2xl mx-auto">
