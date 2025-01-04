@@ -4,6 +4,7 @@ import Pricing2 from "@/components/Pricing2";
 import TestimonialDark from "@/components/TestimonialDark";
 import CTA2 from "@/components/CTA2";
 import { Footer } from "@/components/Footer";
+import { GoogleMap2 } from "@/components/GoogleMap2";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <TestimonialDark />
       <CTA2 />
       <Footer />
+      <GoogleMap2/>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import { GoogleMap } from "./GoogleMap";
+import { GoogleMap2 } from "./GoogleMap2";
 
 const CTA2 = () => {
   return (
@@ -43,7 +44,7 @@ const CTA2 = () => {
         </p>
       </div>
       <div className="mx-auto max-w-4xl h-[300px] mt-8 bg-white rounded-lg shadow-lg overflow-hidden">
-        <GoogleMap />
+        <GoogleMap2 />
       </div>
     </section>
   );
